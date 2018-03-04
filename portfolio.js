@@ -7,8 +7,8 @@ document.addEventListener('DOMContentLoaded', function(event) {
   function typeText(text, i, fnCallback) {
     
     if (i < (text.length)) {
-      // add next character to span
-      document.querySelector("#quote").innerHTML = text.substring(0, i+1) +'<span aria-hidden="true"></span>';
+      // add next character to em
+      document.querySelector("#quote").innerHTML = text.substring(0, i+1) +'<em aria-hidden="true"></em>';
 
       //call function again for next character
       setTimeout(function() {
