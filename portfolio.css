@@ -11,7 +11,7 @@ body {
 .jumbotron {
   margin: 0;
   }
-span {
+em {
   border-right: .05em solid;
   animation: caret 1s steps(1) infinite;
 }
