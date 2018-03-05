@@ -17,7 +17,7 @@ $(document).ready(() => {
     else if (typeof fnCallback == 'function') {
       
       setTimeout(fnCallback, 700);
-    };
+    }
   }
   //Start a typeText animation for a text in the content array
    function startAnimation(i) {
@@ -27,7 +27,7 @@ $(document).ready(() => {
 	    setTimeout(() => {
 	    startAnimation(0);
        }, 3000);
-     }
+     };
     console.log(content[i]); 
     //Check content array, start animation.
     if (i < content[i].length) {
