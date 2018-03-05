@@ -12,7 +12,7 @@ $(document).ready(() => {
       setTimeout(() => {
         typeText(text, i + 1, fnCallback)
       }, 100);
-    };
+    }
     //One element of array finished, call callback fn after timeout.
     else if (typeof fnCallback == 'function') {
       
@@ -27,7 +27,7 @@ $(document).ready(() => {
 	    setTimeout(() => {
 	    startAnimation(0);
        }, 3000);
-     };
+     }
     console.log(content[i]); 
     //Check content array, start animation.
     if (i < content[i].length) {
@@ -35,7 +35,7 @@ $(document).ready(() => {
         typeText(content[i], 0, () => {
 	       startAnimation(i + 1);
 	    })
-	 };
+	 }
    }
   
   startAnimation(0);
